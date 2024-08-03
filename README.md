@@ -26,7 +26,7 @@ The project is implemented in C++. The main components of the code include:
     ```
 
 2. **Output:**
-    ```ruby
+    ```
     [Solution found]
      Q  .  .  . 
      .  .  Q  . 
@@ -42,10 +42,18 @@ The project is implemented in C++. The main components of the code include:
     Total solutions found: 2
     ```
 
+### Code Overview
+
+The project comprises several key functions:
+
+- **printBoard:** Displays the chessboard state, marking the positions of the queens.
+- **isSafe:** Determines if it's safe to place a queen at a particular position by checking the current board state.
+- **solveNQueens:** Recursively attempts to place queens on the board, backtracking when necessary to find all solutions.
+
 ### Contributing
 
 Contributions are welcome! If you have suggestions, improvements, or bug fixes, please fork the repository and submit a pull request.
 
 ### License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
